@@ -1,0 +1,42 @@
+@media(max-width: 576px) {
+    .partner fieldset{
+        width: 90%;
+    }
+}
+
+@media(max-width: 768px) {
+    .right_menu_item {
+        display: none;
+    }
+
+    .search_panel {
+        display: none;
+    }
+
+    .moblie_menu_icon {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+    }
+
+    .moblie_menu_icon a {
+        font-size: 30px;
+        color: #cb7b00;
+    }
+
+    .top_bar .right ul {
+        display: flex;
+        justify-content: center;
+    }
+    .lang_change{
+        display: none;
+    }
+}
+@media(max-width: 992px){
+    .right_menu_item{
+        padding-top: 15px;
+    }
+    .lang_btn_panel_desktop{
+        padding-top: 10px;
+    }
+}
