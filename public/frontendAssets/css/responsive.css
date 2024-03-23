@@ -1,6 +1,26 @@
+@media(max-width: 330px) {
+    .course_card .course_footer .instructor_info {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+      }
+    .course_card .course_footer .price_info {
+        width: 100%;
+        text-align: right;
+      }
+      .course_card .course_footer .instructor_info .left_info {
+        width: 100%;
+      }
+}
 @media(max-width: 576px) {
     .partner fieldset{
         width: 90%;
+    }
+    .milestone_section .summary{
+        margin-top: 50px;
+    }
+    .milestone_section .summary .info{
+        padding: 30px 20px;
     }
 }
 
@@ -31,6 +51,9 @@
     .lang_change{
         display: none;
     }
+    .about_us_seciton video{
+        margin-top: 20px;
+    }
 }
 @media(max-width: 992px){
     .right_menu_item{
@@ -38,5 +61,11 @@
     }
     .lang_btn_panel_desktop{
         padding-top: 10px;
+    }
+    .about_us_seciton .nav-tabs {
+        gap:10px;
+    }
+    .about_us_seciton .nav-link{
+        padding: 10px 0;
     }
 }

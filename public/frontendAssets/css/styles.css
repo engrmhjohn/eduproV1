@@ -515,6 +515,11 @@ fieldset .item {
     position: relative;
 }
 
+.course_card .course_header img {
+    max-height: 240px;
+    width: 100%;
+}
+
 .course_card .course_header .timer {
     position: absolute;
     top: 15px;
@@ -523,41 +528,180 @@ fieldset .item {
     padding: 2px 11px;
     border-radius: 5px;
 }
-.course_card .course_body{
+
+.course_card .course_body {
     background: white;
     padding: 20px;
 }
+
 .course_card .course_body .course_category {
     background: rgba(244, 148, 1, 0.33);
     padding: 2px 11px;
     border-radius: 5px;
     width: fit-content;
 }
-.course_card .course_body .course_name{
+
+.course_card .course_body .course_name {
     display: flex;
     justify-content: space-between;
+    min-height: 57px;
 }
-.course_card .course_footer .instructor_info{
+
+.course_card .course_name img {
+    height: 24px;
+    width: 24px;
+}
+
+.course_card .course_footer .instructor_info {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     width: 100%;
 }
-.course_card .course_footer .instructor_info .left_info{
+
+.course_card .course_footer .instructor_info .left_info {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     width: 80%;
 }
-.course_card .course_footer .instructor_info img{
-    height: 50px;
-    width: 50px;
+
+.course_card .course_footer .instructor_info img {
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
 }
-.course_card .course_footer .price_info{
+
+.course_card .course_footer .price_info {
     width: 20%;
 }
-.course_card .price_info strong{
+
+.course_card .price_info strong {
     color: rgba(244, 148, 1, 1);
     font-size: 20px;
     line-height: 1px;
+}
+
+.course_panel .nav-tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.course_panel .nav-link {
+    color: black;
+}
+
+.course_panel .nav-link.active {
+    background: #cb7b00;
+    color: white;
+}
+
+.course_panel .nav-link:hover {
+    background: #cb7b00;
+    color: white;
+}
+
+/* about us  */
+.about_us_seciton {
+    background: #fef9e8;
+}
+
+.about_us_seciton .nav-tabs {
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+    gap: 20px;
+}
+
+.about_us_seciton .nav-link {
+    width: 100%;
+    border: none;
+    box-shadow: 0px 6px 5px -4px rgba(0.35, 0, 0, 0.35);
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+
+.about_us_seciton .nav-link.active {
+    background: rgba(243, 146, 0, 1);
+    color: white;
+}
+
+.about_us_seciton video {
+    border-radius: 10px;
+}
+
+/* milestone  */
+.milestone_section {
+    background: #f5f5f5;
+}
+
+.milestone_section .summary {
+    width: 100%;
+    position: relative;
+}
+
+.milestone_section .summary .info {
+    width: 46%;
+    float: left;
+    margin-bottom: 20px;
+    margin: 2%;
+    padding: 50px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.milestone_section .summary p {
+    margin-bottom: 0;
+}
+
+.info_bg1 {
+    background: #e3fdf2;
+}
+
+.info_bg2 {
+    background: #f7cfd2;
+}
+
+.info_bg3 {
+    background: #eae9f8;
+}
+
+.info_bg4 {
+    background: #fff8c0;
+}
+
+.info_bg5 {
+    background: #cb7b00;
+}
+
+/* success_story_section */
+.success_story_section {
+    background: #fdfcf6;
+}
+
+.success_story_section video {
+    border-radius: 10px;
+}
+
+.success_story_section video[poster] {
+    object-fit: cover; 
+}
+.success_story_section .youtube_video_wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+}
+
+.success_story_section .youtube_video_wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

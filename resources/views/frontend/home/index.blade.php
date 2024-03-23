@@ -181,7 +181,7 @@
                         future through
                         cutting-edge IT education and comprehensive language training. </p>
                     <div class="animation_btn">
-                        <a href="}" target="_blank">Learn More<i class="fa fa-arrow-right ms-3"></i></a>
+                        <a href="" target="_blank">Learn More<i class="fa fa-arrow-right ms-3"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -192,7 +192,7 @@
         </div>
     </section>
     {{-- hero area end --}}
-    {{-- authorized partner start--}}
+    {{-- authorized partner start --}}
     <section class="partner pt-5 pb-5">
         <div class="container">
             <div class="row">
@@ -213,7 +213,8 @@
                                 <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/arora.png">
                             </div>
                             <div class="item">
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/atn_bangla.png">
+                                <img class="img-fluid"
+                                    src="{{ asset('frontendAssets') }}/static_imges/atn_bangla.png">
                             </div>
                             <div class="item">
                                 <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/basic.jpg">
@@ -240,109 +241,298 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1 class="fw-bold">Our Demanding Courses</h1>
-                    <p>Elevate your skills with our demanding courses designed to push your boundaries and unlock your full potential.</p>
+                    <p>Elevate your skills with our demanding courses designed to push your boundaries and unlock your
+                        full potential.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-12 mt-5">
-                    <div class="course_card">
-                        <div class="course_header">
-                            <a href=""><img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/c1.png" alt="Course Image"></a>
-                            <div class="timer">
-                                <span><i class="fa-regular fa-clock"></i> 10 hr 35 mins</span>
-                            </div>
-                        </div>
-                        <div class="course_body">
-                            <div class="course_category">
-                                <span>DIgital Marketing</span>
-                            </div>
-                            <div class="course_name mt-2 mb-2">
-                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced Digital Marketing</a></h4>
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png" alt="Arrow Image">
-                            </div>
-                            <div class="course_footer mt-3">
-                                <div class="instructor_info">
-                                    <div class="left_info">
-                                        <div class="first_box">
-                                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/john.jpg" alt="Instructor Image">
+                <div class="col-lg-12">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="all-course-tab" data-bs-toggle="tab"
+                                data-bs-target="#all-course-tab-pane" type="button" role="tab"
+                                aria-controls="all-course-tab-pane" aria-selected="true">All Course</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="single1-tab" data-bs-toggle="tab"
+                                data-bs-target="#single1-tab-pane" type="button" role="tab"
+                                aria-controls="single1-tab-pane" aria-selected="false">Digital Marketing</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="single2-tab" data-bs-toggle="tab"
+                                data-bs-target="#single2-tab-pane" type="button" role="tab"
+                                aria-controls="single2-tab-pane" aria-selected="false">Web Design &
+                                Develpment</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="single3-tab" data-bs-toggle="tab"
+                                data-bs-target="#single3-tab-pane" type="button" role="tab"
+                                aria-controls="single3-tab-pane" aria-selected="false">Netwroking</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="all-course-tab-pane" role="tabpanel"
+                            aria-labelledby="all-course-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 mt-5">
+                                    <div class="course_card">
+                                        <div class="course_header">
+                                            <a href=""><img class="img-fluid"
+                                                    src="{{ asset('frontendAssets') }}/static_imges/c1.png"
+                                                    alt="Course Image"></a>
+                                            <div class="timer">
+                                                <span><i class="fa-regular fa-clock"></i> 10 hr 35 mins</span>
+                                            </div>
                                         </div>
-                                        <div class="second_box">
-                                            <h6 class="fw-bold">Mehedi Hasan John</h6>
-                                            <p class="text-muted">100 Enrolled</p>
+                                        <div class="course_body">
+                                            <div class="course_category">
+                                                <span>DIgital Marketing</span>
+                                            </div>
+                                            <div class="course_name mt-2 mb-2">
+                                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced
+                                                        Digital Marketing</a></h4>
+                                                <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
+                                                    alt="Arrow Image">
+                                            </div>
+                                            <div class="course_footer mt-3">
+                                                <div class="instructor_info">
+                                                    <div class="left_info">
+                                                        <div class="first_box">
+                                                            <img class="img-fluid"
+                                                                src="{{ asset('frontendAssets') }}/static_imges/john.jpg"
+                                                                alt="Instructor Image">
+                                                        </div>
+                                                        <div class="second_box">
+                                                            <h6 class="fw-bold">Mehedi Hasan John</h6>
+                                                            <p class="text-muted">100 Enrolled</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="price_info">
+                                                        <strong>BDT 10000</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="price_info">
-                                        <strong>BDT 10000</strong>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mt-5">
+                                    <div class="course_card">
+                                        <div class="course_header">
+                                            <a href=""><img class="img-fluid"
+                                                    src="{{ asset('frontendAssets') }}/static_imges/c2.png"
+                                                    alt="Course Image"></a>
+                                            <div class="timer">
+                                                <span><i class="fa-regular fa-clock"></i> 2 hr 55 mins</span>
+                                            </div>
+                                        </div>
+                                        <div class="course_body">
+                                            <div class="course_category">
+                                                <span>Graphic Design</span>
+                                            </div>
+                                            <div class="course_name mt-2 mb-2">
+                                                <h4 class="fw-bold"><a class="text-dark" href="">Advance
+                                                        Graphic Design</a></h4>
+                                                <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
+                                                    alt="Arrow Image">
+                                            </div>
+                                            <div class="course_footer mt-3">
+                                                <div class="instructor_info">
+                                                    <div class="left_info">
+                                                        <div class="first_box">
+                                                            <img class="img-fluid"
+                                                                src="{{ asset('frontendAssets') }}/static_imges/john.jpg"
+                                                                alt="Instructor Image">
+                                                        </div>
+                                                        <div class="second_box">
+                                                            <h6 class="fw-bold">Sadman Mahmud Khan</h6>
+                                                            <p class="text-muted">900 Enrolled</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="price_info">
+                                                        <strong>BDT 15000</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mt-5">
+                                    <div class="course_card">
+                                        <div class="course_header">
+                                            <a href=""><img class="img-fluid"
+                                                    src="{{ asset('frontendAssets') }}/static_imges/c3.png"
+                                                    alt="Course Image"></a>
+                                            <div class="timer">
+                                                <span><i class="fa-regular fa-clock"></i> 20 hr 05 mins</span>
+                                            </div>
+                                        </div>
+                                        <div class="course_body">
+                                            <div class="course_category">
+                                                <span>Web Design</span>
+                                            </div>
+                                            <div class="course_name mt-2 mb-2">
+                                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced Web
+                                                        Design & Development with SEO</a></h4>
+                                                <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
+                                                    alt="Arrow Image">
+                                            </div>
+                                            <div class="course_footer mt-3">
+                                                <div class="instructor_info">
+                                                    <div class="left_info">
+                                                        <div class="first_box">
+                                                            <img class="img-fluid"
+                                                                src="{{ asset('frontendAssets') }}/static_imges/john.jpg"
+                                                                alt="Instructor Image">
+                                                        </div>
+                                                        <div class="second_box">
+                                                            <h6 class="fw-bold">Shazzadul Islam Chowdhury</h6>
+                                                            <p class="text-muted">50 Enrolled</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="price_info">
+                                                        <strong>BDT 50000</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 mt-5">
-                    <div class="course_card">
-                        <div class="course_header">
-                            <a href=""><img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/c1.png" alt="Course Image"></a>
-                            <div class="timer">
-                                <span><i class="fa-regular fa-clock"></i> 10 hr 35 mins</span>
-                            </div>
-                        </div>
-                        <div class="course_body">
-                            <div class="course_category">
-                                <span>DIgital Marketing</span>
-                            </div>
-                            <div class="course_name mt-2 mb-2">
-                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced Digital Marketing</a></h4>
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png" alt="Arrow Image">
-                            </div>
-                            <div class="course_footer mt-3">
-                                <div class="instructor_info">
-                                    <div class="left_info">
-                                        <div class="first_box">
-                                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/john.jpg" alt="Instructor Image">
+                        <div class="tab-pane fade" id="single1-tab-pane" role="tabpanel"
+                            aria-labelledby="single1-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 mt-5">
+                                    <div class="course_card">
+                                        <div class="course_header">
+                                            <a href=""><img class="img-fluid"
+                                                    src="{{ asset('frontendAssets') }}/static_imges/c1.png"
+                                                    alt="Course Image"></a>
+                                            <div class="timer">
+                                                <span><i class="fa-regular fa-clock"></i> 10 hr 35 mins</span>
+                                            </div>
                                         </div>
-                                        <div class="second_box">
-                                            <h6 class="fw-bold">Mehedi Hasan John</h6>
-                                            <p class="text-muted">100 Enrolled</p>
+                                        <div class="course_body">
+                                            <div class="course_category">
+                                                <span>DIgital Marketing</span>
+                                            </div>
+                                            <div class="course_name mt-2 mb-2">
+                                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced
+                                                        Digital Marketing</a></h4>
+                                                <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
+                                                    alt="Arrow Image">
+                                            </div>
+                                            <div class="course_footer mt-3">
+                                                <div class="instructor_info">
+                                                    <div class="left_info">
+                                                        <div class="first_box">
+                                                            <img class="img-fluid"
+                                                                src="{{ asset('frontendAssets') }}/static_imges/john.jpg"
+                                                                alt="Instructor Image">
+                                                        </div>
+                                                        <div class="second_box">
+                                                            <h6 class="fw-bold">Mehedi Hasan John</h6>
+                                                            <p class="text-muted">100 Enrolled</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="price_info">
+                                                        <strong>BDT 10000</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="price_info">
-                                        <strong>BDT 10000</strong>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 mt-5">
-                    <div class="course_card">
-                        <div class="course_header">
-                            <a href=""><img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/c1.png" alt="Course Image"></a>
-                            <div class="timer">
-                                <span><i class="fa-regular fa-clock"></i> 10 hr 35 mins</span>
-                            </div>
-                        </div>
-                        <div class="course_body">
-                            <div class="course_category">
-                                <span>DIgital Marketing</span>
-                            </div>
-                            <div class="course_name mt-2 mb-2">
-                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced Digital Marketing</a></h4>
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png" alt="Arrow Image">
-                            </div>
-                            <div class="course_footer mt-3">
-                                <div class="instructor_info">
-                                    <div class="left_info">
-                                        <div class="first_box">
-                                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/john.jpg" alt="Instructor Image">
+                        <div class="tab-pane fade" id="single2-tab-pane" role="tabpanel"
+                            aria-labelledby="single2-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 mt-5">
+                                    <div class="course_card">
+                                        <div class="course_header">
+                                            <a href=""><img class="img-fluid"
+                                                    src="{{ asset('frontendAssets') }}/static_imges/c2.png"
+                                                    alt="Course Image"></a>
+                                            <div class="timer">
+                                                <span><i class="fa-regular fa-clock"></i> 2 hr 55 mins</span>
+                                            </div>
                                         </div>
-                                        <div class="second_box">
-                                            <h6 class="fw-bold">Mehedi Hasan John</h6>
-                                            <p class="text-muted">100 Enrolled</p>
+                                        <div class="course_body">
+                                            <div class="course_category">
+                                                <span>Graphic Design</span>
+                                            </div>
+                                            <div class="course_name mt-2 mb-2">
+                                                <h4 class="fw-bold"><a class="text-dark" href="">Advance
+                                                        Graphic Design</a></h4>
+                                                <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
+                                                    alt="Arrow Image">
+                                            </div>
+                                            <div class="course_footer mt-3">
+                                                <div class="instructor_info">
+                                                    <div class="left_info">
+                                                        <div class="first_box">
+                                                            <img class="img-fluid"
+                                                                src="{{ asset('frontendAssets') }}/static_imges/john.jpg"
+                                                                alt="Instructor Image">
+                                                        </div>
+                                                        <div class="second_box">
+                                                            <h6 class="fw-bold">Sadman Mahmud Khan</h6>
+                                                            <p class="text-muted">900 Enrolled</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="price_info">
+                                                        <strong>BDT 15000</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="price_info">
-                                        <strong>BDT 10000</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="single3-tab-pane" role="tabpanel"
+                            aria-labelledby="single3-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 mt-5">
+                                    <div class="course_card">
+                                        <div class="course_header">
+                                            <a href=""><img class="img-fluid"
+                                                    src="{{ asset('frontendAssets') }}/static_imges/c3.png"
+                                                    alt="Course Image"></a>
+                                            <div class="timer">
+                                                <span><i class="fa-regular fa-clock"></i> 20 hr 05 mins</span>
+                                            </div>
+                                        </div>
+                                        <div class="course_body">
+                                            <div class="course_category">
+                                                <span>Web Design</span>
+                                            </div>
+                                            <div class="course_name mt-2 mb-2">
+                                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced Web
+                                                        Design & Development with SEO</a></h4>
+                                                <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
+                                                    alt="Arrow Image">
+                                            </div>
+                                            <div class="course_footer mt-3">
+                                                <div class="instructor_info">
+                                                    <div class="left_info">
+                                                        <div class="first_box">
+                                                            <img class="img-fluid"
+                                                                src="{{ asset('frontendAssets') }}/static_imges/john.jpg"
+                                                                alt="Instructor Image">
+                                                        </div>
+                                                        <div class="second_box">
+                                                            <h6 class="fw-bold">Shazzadul Islam Chowdhury</h6>
+                                                            <p class="text-muted">50 Enrolled</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="price_info">
+                                                        <strong>BDT 50000</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -353,6 +543,149 @@
         </div>
     </section>
     {{-- courses carousal end --}}
+    <!-- about us  start-->
+    <section class="about_us_seciton pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="fw-bold">Benefits You will get From us</h1>
+                    <p>Join us to access a world of knowledge and skills, and experience a profound boost in your
+                        professional and personal development.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-xl-4 col-md-4">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="teacher-tab" data-bs-toggle="tab"
+                                data-bs-target="#teacher-tab-pane" type="button" role="tab"
+                                aria-controls="teacher-tab-pane" aria-selected="true">Industry Expert Mentor</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="learning-tab" data-bs-toggle="tab"
+                                data-bs-target="#learning-tab-pane" type="button" role="tab"
+                                aria-controls="learning-tab-pane" aria-selected="false">Quality Learning
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="class-tab" data-bs-toggle="tab"
+                                data-bs-target="#class-tab-pane" type="button" role="tab"
+                                aria-controls="class-tab-pane" aria-selected="false">Recorded Class</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="price-tab" data-bs-toggle="tab"
+                                data-bs-target="#price-tab-pane" type="button" role="tab"
+                                aria-controls="price-tab-pane" aria-selected="false">Affordable Prices</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="support-tab" data-bs-toggle="tab"
+                                data-bs-target="#support-tab-pane" type="button" role="tab"
+                                aria-controls="support-tab-pane" aria-selected="false">Lifetime Support From
+                                Mentor</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-8 col-xl-6 col-md-8">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="teacher-tab-pane" role="tabpanel"
+                            aria-labelledby="teacher-tab" tabindex="0">
+                            <video class="myVideo" width="100%" height="100%" controls>
+                                <source src="{{ asset('frontendAssets') }}/static_imges/teacher.mp4"
+                                    type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="tab-pane fade" id="learning-tab-pane" role="tabpanel"
+                            aria-labelledby="learning-tab" tabindex="0">
+                            <video class="myVideo" width="100%" height="100%" controls>
+                                <source src="{{ asset('frontendAssets') }}/static_imges/quality.mp4"
+                                    type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="tab-pane fade" id="class-tab-pane" role="tabpanel" aria-labelledby="class-tab"
+                            tabindex="0">
+                            <video class="myVideo" width="100%" height="100%" controls>
+                                <source src="{{ asset('frontendAssets') }}/static_imges/record-videos.mp4"
+                                    type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="tab-pane fade" id="price-tab-pane" role="tabpanel" aria-labelledby="price-tab"
+                            tabindex="0">Price</div>
+                        <div class="tab-pane fade" id="support-tab-pane" role="tabpanel"
+                            aria-labelledby="support-tab" tabindex="0">Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us  end-->
+
+    <!-- milestone  start-->
+    <section class="milestone_section pt-5 pb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/milestone.png"
+                        alt="Milestone Image">
+                </div>
+                <div class="col-lg-6">
+                    <div class="summary">
+                        <div class="info text-center info_bg1">
+                            <h1 class="fw-bold"><span class="counter">5000</span> +</h1>
+                            <p>Enrolled Students</p>
+                        </div>
+                        <div class="info text-center info_bg2">
+                            <h1 class="fw-bold"><span class="counter">1500</span> +</h1>
+                            <p>Successful Students</p>
+                        </div>
+                        <div class="info text-center info_bg3">
+                            <h1 class="fw-bold"><span class="counter">350</span> +</h1>
+                            <p>Industry Experts</p>
+                        </div>
+                        <div class="info text-center info_bg4">
+                            <h1 class="fw-bold"><span class="counter">90</span> %</h1>
+                            <p>Successful Ratio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- milestone  end-->
+    <!-- success story  start-->
+    <section class="success_story_section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="fw-bold">Success Story</h1>
+                    <p>Shine a spotlight on the stories of our determined students who have achieved remarkable feats
+                        through their unwavering dedication.
+                        See More</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mt-5">
+                    <div class="youtube_video_wrapper">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/ImXDtNHuLM0"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5">
+                    <div class="youtube_video_wrapper">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/0grIv4_9-tM"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 text-center">
+                    <div class="animation_btn">
+                        <a href="" target="_blank">See More<i class="fa fa-arrow-right ms-3"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- success story  end-->
+
 
     <script src="{{ asset('frontendAssets') }}/js/jquery 3.4.1.js"></script>
     {{-- Bootstrap js --}}
