@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Edu Pro :: Home</title>
-    {{-- Bootstrap css  --}}
+    <!-- Bootstrap css  -->
     <link rel="stylesheet" href="{{ asset('frontendAssets') }}/css/bootstrap.min.css">
-    {{-- custom css  --}}
+    <!-- custom css  -->
     <link rel="stylesheet" href="{{ asset('frontendAssets') }}/css/styles.css">
     <link rel="stylesheet" href="{{ asset('frontendAssets') }}/css/responsive.css">
-    {{-- custom font css  --}}
+    <!-- custom font css  -->
     <link rel="stylesheet" href="{{ asset('frontendAssets') }}/css/font_style.css">
     <!-- Libraries Stylesheet -->
     <link href="{{ asset('frontendAssets') }}/lib/animate/animate.min.css" rel="stylesheet">
     <link href="{{ asset('frontendAssets') }}/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="{{ asset('frontendAssets') }}/css/slick.css" rel="stylesheet" >
     <!-- Font Awesome  -->
     <link rel="stylesheet" href="{{ asset('frontendAssets') }}/css/fontawesome.min.css">
     <link rel="stylesheet" href="{{ asset('frontendAssets') }}/css/all.min.css">
@@ -33,11 +34,11 @@
                 </div>
                 <div class="col-lg-6 col-md-6 right">
                     <ul>
-                        <li><a class="text-center" href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a class="text-center" href=""><i class="fa-brands fa-youtube"></i></a></li>
-                        <li><a class="text-center" href=""><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a class="text-center" href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <a class="login_register_button" href="">Login / Register</a>
+                        <li><a class="text-center" href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a class="text-center" href="javascript:void(0)"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a class="text-center" href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a class="text-center" href="javascript:void(0)"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <a class="login_register_button" href="javascript:void(0)">Login / Register</a>
                     </ul>
                 </div>
             </div>
@@ -79,11 +80,11 @@
                     <div class="main_menu_list">
                         <ul class="desktop_menu">
                             <li class="show_sub_menu">
-                                <a class="main_menu pl-0 empty_sub" href="">About Us
+                                <a class="main_menu pl-0 empty_sub" href="javascript:void(0)">About Us
                                 </a>
                             </li>
                             <li class="show_sub_menu">
-                                <a class="main_menu pl-0 empty_sub" href="">Contact Us
+                                <a class="main_menu pl-0 empty_sub" href="javascript:void(0)">Contact Us
                                 </a>
                             </li>
                             <li class="show_sub_menu">
@@ -139,7 +140,7 @@
                 </div>
                 <div class="col-lg-2 col-md-3 lang_btn_panel_desktop">
                     <div class="lang_change">
-                        <a class="lang_item lang_item_active" href="">Eng</a>
+                        <a class="lang_item lang_item_active" href="javascript:void(0)">Eng</a>
                         <a class="lang_item" href="/bn">বাংলা</a>
                     </div>
                 </div>
@@ -171,7 +172,7 @@
             </div>
         </div>
     </header>
-    {{-- hero area start --}}
+    <!-- hero area start -->
     <section class="hero_area">
         <div class="container">
             <div class="row align-items-center">
@@ -181,7 +182,7 @@
                         future through
                         cutting-edge IT education and comprehensive language training. </p>
                     <div class="animation_btn">
-                        <a href="" target="_blank">Learn More<i class="fa fa-arrow-right ms-3"></i></a>
+                        <a href="javascript:void(0)" target="_blank">Learn More<i class="fa fa-arrow-right ms-3"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -191,8 +192,8 @@
             </div>
         </div>
     </section>
-    {{-- hero area end --}}
-    {{-- authorized partner start --}}
+    <!-- hero area end -->
+    <!-- authorized partner start -->
     <section class="partner pt-5 pb-5">
         <div class="container">
             <div class="row">
@@ -234,8 +235,8 @@
             </div>
         </div>
     </section>
-    {{-- authorized partner end --}}
-    {{-- courses carousal start --}}
+    <!-- authorized partner end -->
+    <!-- courses carousal start -->
     <section class="course_panel pt-5 pb-5">
         <div class="container">
             <div class="row">
@@ -277,7 +278,7 @@
                                 <div class="col-lg-4 col-md-6 col-12 mt-5">
                                     <div class="course_card">
                                         <div class="course_header">
-                                            <a href=""><img class="img-fluid"
+                                            <a href="javascript:void(0)"><img class="img-fluid"
                                                     src="{{ asset('frontendAssets') }}/static_imges/c1.png"
                                                     alt="Course Image"></a>
                                             <div class="timer">
@@ -289,7 +290,7 @@
                                                 <span>DIgital Marketing</span>
                                             </div>
                                             <div class="course_name mt-2 mb-2">
-                                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced
+                                                <h4 class="fw-bold"><a class="text-dark" href="javascript:void(0)">Advanced
                                                         Digital Marketing</a></h4>
                                                 <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
                                                     alt="Arrow Image">
@@ -318,7 +319,7 @@
                                 <div class="col-lg-4 col-md-6 col-12 mt-5">
                                     <div class="course_card">
                                         <div class="course_header">
-                                            <a href=""><img class="img-fluid"
+                                            <a href="javascript:void(0)"><img class="img-fluid"
                                                     src="{{ asset('frontendAssets') }}/static_imges/c2.png"
                                                     alt="Course Image"></a>
                                             <div class="timer">
@@ -330,7 +331,7 @@
                                                 <span>Graphic Design</span>
                                             </div>
                                             <div class="course_name mt-2 mb-2">
-                                                <h4 class="fw-bold"><a class="text-dark" href="">Advance
+                                                <h4 class="fw-bold"><a class="text-dark" href="javascript:void(0)">Advance
                                                         Graphic Design</a></h4>
                                                 <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
                                                     alt="Arrow Image">
@@ -359,7 +360,7 @@
                                 <div class="col-lg-4 col-md-6 col-12 mt-5">
                                     <div class="course_card">
                                         <div class="course_header">
-                                            <a href=""><img class="img-fluid"
+                                            <a href="javascript:void(0)"><img class="img-fluid"
                                                     src="{{ asset('frontendAssets') }}/static_imges/c3.png"
                                                     alt="Course Image"></a>
                                             <div class="timer">
@@ -371,7 +372,7 @@
                                                 <span>Web Design</span>
                                             </div>
                                             <div class="course_name mt-2 mb-2">
-                                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced Web
+                                                <h4 class="fw-bold"><a class="text-dark" href="javascript:void(0)">Advanced Web
                                                         Design & Development with SEO</a></h4>
                                                 <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
                                                     alt="Arrow Image">
@@ -405,7 +406,7 @@
                                 <div class="col-lg-4 col-md-6 col-12 mt-5">
                                     <div class="course_card">
                                         <div class="course_header">
-                                            <a href=""><img class="img-fluid"
+                                            <a href="javascript:void(0)"><img class="img-fluid"
                                                     src="{{ asset('frontendAssets') }}/static_imges/c1.png"
                                                     alt="Course Image"></a>
                                             <div class="timer">
@@ -417,7 +418,7 @@
                                                 <span>DIgital Marketing</span>
                                             </div>
                                             <div class="course_name mt-2 mb-2">
-                                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced
+                                                <h4 class="fw-bold"><a class="text-dark" href="javascript:void(0)">Advanced
                                                         Digital Marketing</a></h4>
                                                 <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
                                                     alt="Arrow Image">
@@ -451,7 +452,7 @@
                                 <div class="col-lg-4 col-md-6 col-12 mt-5">
                                     <div class="course_card">
                                         <div class="course_header">
-                                            <a href=""><img class="img-fluid"
+                                            <a href="javascript:void(0)"><img class="img-fluid"
                                                     src="{{ asset('frontendAssets') }}/static_imges/c2.png"
                                                     alt="Course Image"></a>
                                             <div class="timer">
@@ -463,7 +464,7 @@
                                                 <span>Graphic Design</span>
                                             </div>
                                             <div class="course_name mt-2 mb-2">
-                                                <h4 class="fw-bold"><a class="text-dark" href="">Advance
+                                                <h4 class="fw-bold"><a class="text-dark" href="javascript:void(0)">Advance
                                                         Graphic Design</a></h4>
                                                 <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
                                                     alt="Arrow Image">
@@ -497,7 +498,7 @@
                                 <div class="col-lg-4 col-md-6 col-12 mt-5">
                                     <div class="course_card">
                                         <div class="course_header">
-                                            <a href=""><img class="img-fluid"
+                                            <a href="javascript:void(0)"><img class="img-fluid"
                                                     src="{{ asset('frontendAssets') }}/static_imges/c3.png"
                                                     alt="Course Image"></a>
                                             <div class="timer">
@@ -509,7 +510,7 @@
                                                 <span>Web Design</span>
                                             </div>
                                             <div class="course_name mt-2 mb-2">
-                                                <h4 class="fw-bold"><a class="text-dark" href="">Advanced Web
+                                                <h4 class="fw-bold"><a class="text-dark" href="javascript:void(0)">Advanced Web
                                                         Design & Development with SEO</a></h4>
                                                 <img src="{{ asset('frontendAssets') }}/static_imges/arrow_up.png"
                                                     alt="Arrow Image">
@@ -542,7 +543,7 @@
             </div>
         </div>
     </section>
-    {{-- courses carousal end --}}
+    <!-- courses carousal end -->
     <!-- about us  start-->
     <section class="about_us_seciton pt-5 pb-5">
         <div class="container">
@@ -668,17 +669,19 @@
             <div class="row">
                 <div class="col-lg-6 mt-5">
                     <div class="youtube_video_wrapper">
-                        <iframe width="420" height="315" src="https://www.youtube.com/embed/ImXDtNHuLM0"></iframe>
+                        <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/ImXDtNHuLM0"></iframe>
                     </div>
                 </div>
                 <div class="col-lg-6 mt-5">
                     <div class="youtube_video_wrapper">
-                        <iframe width="420" height="315" src="https://www.youtube.com/embed/0grIv4_9-tM"></iframe>
+                        <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/0grIv4_9-tM"></iframe>
                     </div>
                 </div>
                 <div class="col-lg-12 mt-5 text-center">
                     <div class="animation_btn">
-                        <a href="" target="_blank">See More<i class="fa fa-arrow-right ms-3"></i></a>
+                        <a href="javascript:void(0)" target="_blank">See More<i class="fa fa-arrow-right ms-3"></i></a>
                     </div>
                 </div>
             </div>
@@ -686,13 +689,160 @@
     </section>
     <!-- success story  end-->
 
+    <!-- Events start-->
+    <section class="event_section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="fw-bold">Events & Activites</h1>
+                    <p>Explore a visual showcase of our past events and activities through our photo gallery.</p>
+                </div>
+            </div>
+            <div class="row testimonial mt-5">
+                <div class="col-lg-12">
+                    <div class="event_wrapper">
+                        <div class="card event_card">
+                            <a href="javascript:void(0)">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e1.jpg"
+                                alt="Event Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="event_wrapper">
+                        <div class="card event_card">
+                            <a href="javascript:void(0)">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e2.jpg"
+                                alt="Event Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="event_wrapper">
+                        <div class="card event_card">
+                            <a href="javascript:void(0)">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e3.jpg"
+                                alt="Event Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="event_wrapper">
+                        <div class="card event_card">
+                            <a href="javascript:void(0)">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e4.jpg"
+                                alt="Event Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="event_wrapper">
+                        <div class="card event_card">
+                            <a href="javascript:void(0)">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e5.jpg"
+                                alt="Event Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="event_wrapper">
+                        <div class="card event_card">
+                            <a href="javascript:void(0)">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e6.jpg"
+                                alt="Event Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="event_wrapper">
+                        <div class="card event_card">
+                            <a href="javascript:void(0)">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e7.jpg"
+                                alt="Event Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Events end-->
+    <!-- Mentor start-->
+    <section class="mentor_section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="fw-bold">Meet Our Expert Mentors</h1>
+                    <p>Meet the mentors who turn dreams into reality – your pathway to knowledge, skills, and success.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="mentor_card">
+                        <div class="border_bg"></div>
+                        <div class="mentor_head">
+                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/john.jpg" alt="Mentor Image">
+                        </div>
+                        <div class="mentor_body text-center">
+                            <h6 class="fw-bold mt-3">Mehedi Hasan John</h6>
+                            <p class="fw-bold text-muted">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="mentor_card">
+                        <div class="border_bg"></div>
+                        <div class="mentor_head">
+                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/john.jpg" alt="Mentor Image">
+                        </div>
+                        <div class="mentor_body text-center">
+                            <h6 class="fw-bold mt-3">Mehedi Hasan John</h6>
+                            <p class="fw-bold text-muted">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="mentor_card">
+                        <div class="border_bg"></div>
+                        <div class="mentor_head">
+                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/john.jpg" alt="Mentor Image">
+                        </div>
+                        <div class="mentor_body text-center">
+                            <h6 class="fw-bold mt-3">Mehedi Hasan John</h6>
+                            <p class="fw-bold text-muted">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="mentor_card">
+                        <div class="border_bg"></div>
+                        <div class="mentor_head">
+                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/john.jpg" alt="Mentor Image">
+                        </div>
+                        <div class="mentor_body text-center">
+                            <h6 class="fw-bold mt-3">Mehedi Hasan John</h6>
+                            <p class="fw-bold text-muted">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mentor end-->
+
 
     <script src="{{ asset('frontendAssets') }}/js/jquery 3.4.1.js"></script>
-    {{-- Bootstrap js --}}
+    <!-- Bootstrap js -->
     <script src="{{ asset('frontendAssets') }}/js/bootstrap.min.js"></script>
-    {{-- font awesome js --}}
+    <!-- font awesome js -->
     <script src="{{ asset('frontendAssets') }}/js/all.js"></script>
-    {{-- slick js  --}}
+    <!-- slick js  -->
     <script src="{{ asset('frontendAssets') }}/js/slick.min.js"></script>
     <script src="{{ asset('frontendAssets') }}/lib/wow/wow.min.js"></script>
     <script src="{{ asset('frontendAssets') }}/lib/easing/easing.min.js"></script>
@@ -700,7 +850,7 @@
     <script src="{{ asset('frontendAssets') }}/lib/counterup/counterup.min.js"></script>
     <script src="{{ asset('frontendAssets') }}/lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="{{ asset('frontendAssets') }}/lib/isotope/isotope.pkgd.min.js"></script>
-    {{-- custom js  --}}
+    <!-- custom js  -->
     <script src="{{ asset('frontendAssets') }}/js/main.js"></script>
 </body>
 
