@@ -29,6 +29,12 @@
       .event_section .slick_left {
         left: 20px;
       }
+      .seminar_info .date{
+        width: 100%;
+    }
+    .seminar_info .inside{
+        width: 100%;
+    }
 }
 
 @media(max-width: 768px) {

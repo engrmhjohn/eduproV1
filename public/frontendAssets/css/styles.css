@@ -627,6 +627,7 @@ fieldset .item {
     color: white;
 }
 
+
 .about_us_seciton video {
     border-radius: 10px;
 }
@@ -675,20 +676,16 @@ fieldset .item {
     background: #cb7b00;
 }
 
-/* success_story_section */
-.success_story_section {
-    background: #fdfcf6;
-}
-
-.success_story_section video {
+/* video default  */
+ video {
     border-radius: 10px;
 }
 
-.success_story_section video[poster] {
+ video[poster] {
     object-fit: cover;
 }
 
-.success_story_section .youtube_video_wrapper {
+.youtube_video_wrapper {
     position: relative;
     overflow: hidden;
     max-width: 100%;
@@ -699,12 +696,17 @@ fieldset .item {
     border-radius: 10px;
 }
 
-.success_story_section .youtube_video_wrapper iframe {
+.youtube_video_wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* success_story_section */
+.success_story_section {
+    background: #fdfcf6;
 }
 
 /* event_section */
@@ -757,12 +759,12 @@ fieldset .item {
 
 /* mentor */
 .mentor_section {
-    background: #fcfcf5;
+    /* background: #fcfcf5; */
 }
 
 .mentor_section .mentor_card {
     position: relative;
-    padding: 15px;
+    padding: 15px 15px 0;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -827,4 +829,42 @@ fieldset .item {
     rotate: 180deg;
     z-index: 3;
  }
- 
+.mentor_info{
+    position: relative;
+    top: 25px;
+}
+.seminar_section{
+    background: #f5f5f5;
+}
+.seminar_section img{
+    border-radius: 10px;
+}
+.seminar_section .left_div{
+    background: rgba(253, 233, 202, 1);
+    padding: 0;
+    border-radius: 20px;
+}
+.seminar_section .seminar_info{
+    border-radius: 20px;
+    /* padding: 15px 20px; */
+    width: 100%;
+}
+.seminar_info .date{
+    width: 150px;
+    float: left;
+    text-align: center;
+    padding: 29px 0;
+}
+.seminar_info .inside{
+    width: calc(100% - 150px);
+    background: white;
+    border-radius: 20px;
+    padding: 15px 20px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seminar_info .inside .time_paragraph{
+    margin: 0;
+}
