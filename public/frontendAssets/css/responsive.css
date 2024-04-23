@@ -35,6 +35,9 @@
     .seminar_info .inside{
         width: 100%;
     }
+    .seminar_section .left_div{
+        padding: 0px 10px 10px 10px;
+    }
 }
 
 @media(max-width: 768px) {
@@ -67,6 +70,9 @@
     .about_us_seciton video{
         margin-top: 20px;
     }
+    .about_us_seciton .tab-content{
+        margin-top: 20px;
+    }
 }
 @media(max-width: 992px){
     .right_menu_item{
@@ -80,5 +86,11 @@
     }
     .about_us_seciton .nav-link{
         padding: 10px 0;
+    }
+    .cta_section .row{
+        width: 100%;
+    }
+    .cta_section p{
+        font-size: 18px;
     }
 }

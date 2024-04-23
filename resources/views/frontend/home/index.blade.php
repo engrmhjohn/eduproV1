@@ -717,7 +717,7 @@
                     <p>Explore a visual showcase of our past events and activities through our photo gallery.</p>
                 </div>
             </div>
-            <div class="row testimonial mt-5">
+            <div class="row event mt-5">
                 <div class="col-lg-12">
                     <div class="event_wrapper">
                         <div class="card event_card">
@@ -864,7 +864,9 @@
                     </div>
                 </div>
                 <div class="col-lg-12 mt-5 text-center">
-                    Thousands of students waiting for an instructor. Start teaching & earning now! <a class="btn btn-warning" href="">Become an Instructor <i class="fa fa-arrow-right ms-3"></i></a>
+                    Thousands of students waiting for an instructor. Start teaching & earning now! <a
+                        class="btn btn-warning" href="">Become an Instructor <i
+                            class="fa fa-arrow-right ms-3"></i></a>
                 </div>
             </div>
         </div>
@@ -878,7 +880,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <h1 class="fw-bold text-center">Free Seminar Schedule</h1>
-                            <p class="text-muted">Need guidelines to choose a suitable course? Unlock new insights and opportunities by joining our complimentary seminars .</p>
+                            <p class="text-muted">Need guidelines to choose a suitable course? Unlock new insights and
+                                opportunities by joining our complimentary seminars .</p>
                         </div>
                         <div class="col-lg-12 left_div mb-4">
                             <div class="seminar_info">
@@ -931,12 +934,168 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-12">
-                    <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/event.jpg" alt="">
+                    <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/event.jpg"
+                        alt="">
                 </div>
             </div>
         </div>
     </section>
     <!-- Seminar end-->
+    <!-- Testimonial start-->
+    <section class="testimonial_section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="fw-bold">Students Review</h1>
+                    <p>Read through the reviews and testimonials from our students, sharing theirexperiences and
+                        insights about their time with us.</p>
+                </div>
+            </div>
+            {{-- <div class="row testimonial mt-5">
+                <div class="col-lg-12">
+                    <div class="testimonial_wrapper">
+                        <div class="card testimonial_card">
+                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e5.jpg"
+                                alt="Testimonial Image" style="max-width: 300px;">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit pariatur ratione numquam placeat ipsa eaque recusandae, voluptate omnis culpa error voluptates cupiditate sit perspiciatis mollitia nulla corporis, ex quam. Nostrum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="testimonial_wrapper">
+                        <div class="card testimonial_card">
+                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e6.jpg"
+                                alt="Testimonial Image" style="max-width: 300px;">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit pariatur ratione numquam placeat ipsa eaque recusandae, voluptate omnis culpa error voluptates cupiditate sit perspiciatis mollitia nulla corporis, ex quam. Nostrum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="testimonial_wrapper">
+                        <div class="card testimonial_card">
+                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e7.jpg"
+                                alt="Testimonial Image" style="max-width: 300px;">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit pariatur ratione numquam placeat ipsa eaque recusandae, voluptate omnis culpa error voluptates cupiditate sit perspiciatis mollitia nulla corporis, ex quam. Nostrum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> --}}
+            <div class="row testimonial wow zoomIn" data-wow-delay="0.1s">
+                <div class="col-lg-12 mb-5">
+                    <div class="feedback_wrapper">
+                        <div class="card feedback_card">
+                            <div class="info_box">
+                                <img src="{{ asset('frontendAssets') }}/static_imges/e5.jpg" alt="">
+                                <div class="description">
+                                    <p><i class='fas fa-quote-left'></i>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quas dolor id enim maxime quod minus quis numquam itaque quae a facilis corrupti repudiandae deleniti eum veritatis, suscipit temporibus accusantium!</p>
+                                    <h3>John</h3>
+                                    <span class="fst-italic">Dev</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-5">
+                    <div class="feedback_wrapper">
+                        <div class="card feedback_card">
+                            <div class="info_box">
+                                <img src="{{ asset('frontendAssets') }}/static_imges/e6.jpg" alt="">
+                                <p><i class='fas fa-quote-left'
+                                        style='font-size:36px; display: block; margin-top: 15px;'></i>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quas dolor id enim maxime quod minus quis numquam itaque quae a facilis corrupti repudiandae deleniti eum veritatis, suscipit temporibus accusantium!
+                                        <i class='fas fa-quote-right' style='font-size:36px; display: block;'></i></p>
+                                <h3>John 2</h3>
+                                <span class="fst-italic">Dev 2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-5">
+                    <div class="feedback_wrapper">
+                        <div class="card feedback_card">
+                            <div class="info_box">
+                                <img src="{{ asset('frontendAssets') }}/static_imges/e7.jpg" alt="">
+                                <p><i class='fas fa-quote-left'
+                                        style='font-size:36px; display: block; margin-top: 15px;'></i><i
+                                        class='fas fa-quote-right' style='font-size:36px; display: block;'></i></p>
+                                <h3>John 3</h3>
+                                <span class="fst-italic">Dev 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial end-->
+
+    <!-- CTA end-->
+    <section class="cta_section pt-5 pb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-9 text-center">
+                    <p>Stay tuned for our latest course offerings!  please call us at</p>
+                    <small class="fw-bold">09:00 am -  8:00pm</small>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <a class="btn cta_btn" href="tel:+4733378901"><i class="fa fa-phone ms-3"></i> 01781365425
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA end-->
+
+    <!-- Footer start-->
+    <footer class="pt-3 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="mt-2 col-sm-6 col-md-6 col-lg-3">
+                    <img class="img-fluid" src="{{ asset('frontendAssets/static_imges/logo_white.png') }}" alt="Logo">
+                    <p>Future IT is dedicated to providing  IT training that equips students with the skills and expertise to thrive in today's competitive marketplace. </p>
+                    <ul class="social_link_ul">
+                        <li><a class="text-center" href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li><a class="text-center" href="javascript:void(0)"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                        <li><a class="text-center" href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li><a class="text-center" href="javascript:void(0)"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <div class="mt-2 col-sm-6 col-md-6 col-lg-3 footer_address">
+                    <h5 class="fw-bold text-white mb-3">Contact</h5>
+                    <div><i class="fa-solid fa-location-dot"></i> <p>S.A Bhaban (6th floor), 115/23 Motijheel Circular Road, Arambagh, Dhaka-1000</p> </div>
+                    <div><i class="fa-solid fa-envelope"></i> <p>oneskyit.bd@gmail.com</p> </div>
+                    <div><i class="fa-solid fa-phone-volume"></i> <p>01404 090700</p> </div>
+                </div>
+                <div class="mt-2 col-sm-6 col-md-6 col-lg-3 footer_courses">
+                    <h5 class="fw-bold text-white mb-3">Popular Courses</h5>
+                    <a href="javascript:void(0)"><i class="fa-solid fa-caret-right"></i> Web Development</a>
+                    <a href="javascript:void(0)"><i class="fa-solid fa-caret-right"></i> Adavanced Graphic Design</a>
+                    <a href="javascript:void(0)"><i class="fa-solid fa-caret-right"></i> Adavanced Digital Marketing</a>
+                    <a href="javascript:void(0)"><i class="fa-solid fa-caret-right"></i> Mern Stack Development</a>
+                    <a href="javascript:void(0)"><i class="fa-solid fa-caret-right"></i> Cyber Security</a>
+                </div>
+                <div class="mt-2 col-sm-6 col-md-6 col-lg-3 footer_others">
+                    <h5 class="fw-bold text-white mb-3">Others</h5>
+                    <a href="javascript:void(0)"><i class="fa-solid fa-location-arrow"></i> About Us</a>
+                    <a href="javascript:void(0)"><i class="fa-solid fa-location-arrow"></i> Our Facility</a>
+                    <a href="javascript:void(0)"><i class="fa-solid fa-location-arrow"></i> Job Placement</a>
+                    <a href="javascript:void(0)"><i class="fa-solid fa-location-arrow"></i> Industrial Attachment</a>
+                    <a href="javascript:void(0)"><i class="fa-solid fa-location-arrow"></i> Success Story</a>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-center">© Copyrights <span id="year"></span> by One Sky IT. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end-->
 
 
     <script src="{{ asset('frontendAssets') }}/js/jquery 3.4.1.js"></script>

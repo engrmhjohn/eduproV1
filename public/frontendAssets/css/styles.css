@@ -677,11 +677,11 @@ fieldset .item {
 }
 
 /* video default  */
- video {
+video {
     border-radius: 10px;
 }
 
- video[poster] {
+video[poster] {
     object-fit: cover;
 }
 
@@ -758,10 +758,6 @@ fieldset .item {
 }
 
 /* mentor */
-.mentor_section {
-    /* background: #fcfcf5; */
-}
-
 .mentor_section .mentor_card {
     position: relative;
     padding: 15px 15px 0;
@@ -788,36 +784,16 @@ fieldset .item {
     border-radius: 10px;
 }
 
-/* .mentor_body {
+.mentor_body {
     background: white;
     display: inline-block;
     height: 100%;
     position: relative;
     width: 100%;
     top: -25px;
- }
- 
- .mentor_body::before {
-    border-bottom: 25px solid white;
-    border-left: 135px solid transparent;
-    border-right: 135px solid transparent;
-    content: "";
-    height: 25px;
-    position: absolute;
-    top: -25px;
-    left: 0;
-    width: 100%;
- } */
- .mentor_body {
-    background: white;
-    display: inline-block;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    top: -25px;
- }
- 
- .mentor_body::before {
+}
+
+.mentor_body::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -828,34 +804,40 @@ fieldset .item {
     clip-path: polygon(0 0, 50% 100%, 100% 0);
     rotate: 180deg;
     z-index: 3;
- }
-.mentor_info{
+}
+
+.mentor_info {
     position: relative;
     top: 25px;
 }
-.seminar_section{
+
+.seminar_section {
     background: #f5f5f5;
 }
-.seminar_section img{
+
+.seminar_section img {
     border-radius: 10px;
 }
-.seminar_section .left_div{
+
+.seminar_section .left_div {
     background: rgba(253, 233, 202, 1);
     padding: 0;
     border-radius: 20px;
 }
-.seminar_section .seminar_info{
+
+.seminar_section .seminar_info {
     border-radius: 20px;
-    /* padding: 15px 20px; */
     width: 100%;
 }
-.seminar_info .date{
+
+.seminar_info .date {
     width: 150px;
     float: left;
     text-align: center;
     padding: 29px 0;
 }
-.seminar_info .inside{
+
+.seminar_info .inside {
     width: calc(100% - 150px);
     background: white;
     border-radius: 20px;
@@ -865,6 +847,204 @@ fieldset .item {
     justify-content: space-between;
     align-items: center;
 }
-.seminar_info .inside .time_paragraph{
+
+.seminar_info .inside .time_paragraph {
     margin: 0;
+}
+
+/* Testimonial */
+.testimonial_section {
+    background: #fef9e8;
+}
+
+/* .testimonial_section .testimonial_wrapper{
+    
+}
+.testimonial_section .testimonial_card{
+    display: flex;
+    padding: 20px 30px;
+}
+.testimonial_card .slick-slide img{
+    display: inline-block !important;
+} */
+
+
+
+
+.feedback_card {
+    padding: 20px;
+    border-radius: 10px;
+    /* width: 98%;
+    margin-left: 1%; */
+    min-height: 342px;
+}
+
+.feedback_card .info_box {
+    position: relative;
+    background: white;
+    box-shadow: 0 0 2px #fff;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px 20px;
+}
+
+.feedback_card .info_box img {
+    max-width: 250px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0px;
+    box-shadow: 0 0 2px #fff;
+}
+
+.feedback_card .info_box .description {
+    position: absolute;
+    left: 270px;
+}
+
+.feedback_card .info_box svg {
+    background: #fde9ca;
+    padding: 6px;
+    border-radius: 19px;
+    position: relative;
+    top: 5px;
+}
+
+.feedback_card .info_box i {
+    color: #cb7b00;
+}
+
+.testimonial .slick_left,
+.testimonial .slick_right {
+    z-index: 999 !important;
+}
+
+.testimonial .slick_left svg {
+    font-size: 20px;
+    margin: 10px 2px;
+    color: black;
+}
+
+.testimonial .slick_right svg {
+    font-size: 20px;
+    margin: 10px 2px;
+    color: black;
+}
+
+.testimonial .slick_right {
+    position: absolute;
+    bottom: -5px;
+    right: 9px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    line-height: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.testimonial .slick_left {
+    position: absolute;
+    bottom: -5px;
+    right: 55px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    line-height: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+.cta_section .row{
+    background: linear-gradient(90deg, #050505 0%, #0C0E1B 34.38%, #0A0217 94.79%);
+    border-radius: 10px;
+    padding: 20px 0px;
+    width: 80%;
+    margin: 0 auto;
+}
+.cta_section .cta_btn{
+    background: #cb7b00;
+    color: white;
+    font-weight: bold;
+}
+.cta_section .cta_btn svg{
+    margin-left: 0px !important;
+}
+.cta_section p, .cta_section small{
+    color: whitesmoke;
+    margin: 0;
+}
+.cta_section p{
+    font-size: 24px;
+}
+footer{
+    background: rgba(16, 24, 40, 1);
+}
+footer p{
+    color: whitesmoke;
+}
+
+footer .social_link_ul {
+    display: flex;
+    gap: 10px;
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+footer .social_link_ul li a {
+    background: rgba(32, 37, 45, 1);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+footer .social_link_ul li a:hover {
+    background: #cb7b00;
+}
+footer p{
+    text-align: justify;
+    color: rgba(189, 188, 188, 1);
+}
+footer .footer_courses a, footer .footer_others a{
+    display: block;
+    color: rgba(189, 188, 188, 1);
+    line-height: 40px;
+}
+footer .footer_courses a:hover, footer .footer_others a:hover{
+    color: whitesmoke;
+}
+footer .footer_courses svg, footer .footer_others svg{
+    margin-right: 5px;
+}
+footer .footer_address{
+    color: rgba(189, 188, 188, 1);
+}
+footer .footer_address div{
+    display: flex;
+    gap: 15px;
+}
+footer .footer_address svg{
+    font-size: 20px;
+    color: #f39400;
+    border-radius: 16px;
+    padding: 3px;
+}
+footer .footer_address div:hover p, footer .footer_address div:hover svg{
+    color: whitesmoke;
+}
+footer hr{
+    color: wheat;
 }

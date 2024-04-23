@@ -48,7 +48,7 @@ $( function() {
 });
 
 // event slick
-$('.testimonial').slick({
+$('.event').slick({
   dots: false,
   arrows: true,
   nextArrow: '<span class="slick_right"><i class="fa-solid fa-chevron-right"></i></span>',
@@ -90,6 +90,19 @@ $('.testimonial').slick({
       }
     }
   ]
+});
+
+//testimonial slick
+$('.testimonial ').slick({
+  dots: false,
+  arrows: true,
+  nextArrow: '<span class="slick_right"><i class="fa-solid fa-chevron-right"></i></span>',
+  prevArrow: '<span class="slick_left"><i class="fa-solid fa-chevron-left"></i></span>',
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: false,
+  autoplaySpeed: 2000
 });
 
 //testimonial 
@@ -136,3 +149,5 @@ $('.testimonial2').slick({
     }
   ]
 });
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
