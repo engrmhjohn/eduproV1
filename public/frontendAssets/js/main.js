@@ -151,3 +151,31 @@ $('.testimonial2').slick({
 });
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+    // Header carousel
+    $(".header-carousel").owlCarousel({
+      autoplay: true,
+      smartSpeed: 1500,
+      items: 5,
+      dots: false,
+      loop: true,
+      nav : true,
+      navText : [
+          '<i class="fa-solid fa-angle-left"></i>',
+          '<i class="fa-solid fa-angle-right"></i>'
+      ],
+      responsive: {
+          0:{
+              items:1
+          },
+          576:{
+              items:2
+          },
+          768:{
+              items:3
+          },
+          992:{
+              items:4
+          }
+      }
+  });
