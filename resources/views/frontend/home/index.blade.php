@@ -15,8 +15,11 @@
     <link rel="stylesheet" href="{{ asset('frontendAssets') }}/css/font_style.css">
     <!-- Libraries Stylesheet -->
     <link href="{{ asset('frontendAssets') }}/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="{{ asset('frontendAssets') }}/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    {{-- <link href="{{ asset('frontendAssets') }}/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> --}}
     <link href="{{ asset('frontendAssets') }}/css/slick.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
     <!-- Font Awesome  -->
     <link rel="stylesheet" href="{{ asset('frontendAssets') }}/css/fontawesome.min.css">
     <link rel="stylesheet" href="{{ asset('frontendAssets') }}/css/all.min.css">
@@ -173,94 +176,21 @@
         </div>
     </header>
     <!-- Header Carousel Start -->
-    <section class="hero_slider">
-        <div class="container p-0">
-            <h1 class="text-center mb-5">Grow Your Skills, Secure Your Future</h1>
-            <div class="owl-carousel header-carousel position-relative">
-                {{-- @foreach ($courses as $course) --}}
-                <div class="owl-carousel-item position-relative plr20">
-                    <a href=""><img class="img-fluid radius5" src="{{ asset('frontendAssets') }}/static_imges/course.jpg" alt="Course Image">
-                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
-                        </div>
-                    </a>
-                </div>
-                <div class="owl-carousel-item position-relative plr20">
-                    <a href=""><img class="img-fluid radius5" src="{{ asset('frontendAssets') }}/static_imges/course2.jpg" alt="Course Image">
-                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
-                        </div>
-                    </a>
-                </div>
-                <div class="owl-carousel-item position-relative plr20">
-                    <a href=""><img class="img-fluid radius5" src="{{ asset('frontendAssets') }}/static_imges/course3.jpg" alt="Course Image">
-                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
-                        </div>
-                    </a>
-                </div>
-                <div class="owl-carousel-item position-relative plr20">
-                    <a href=""><img class="img-fluid radius5" src="{{ asset('frontendAssets') }}/static_imges/course.jpg" alt="Course Image">
-                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
-                        </div>
-                    </a>
-                </div>
-                <div class="owl-carousel-item position-relative plr20">
-                    <a href=""><img class="img-fluid radius5" src="{{ asset('frontendAssets') }}/static_imges/course2.jpg" alt="Course Image">
-                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
-                        </div>
-                    </a>
-                </div>
-                <div class="owl-carousel-item position-relative plr20">
-                    <a href=""><img class="img-fluid radius5" src="{{ asset('frontendAssets') }}/static_imges/course3.jpg" alt="Course Image">
-                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
-                        </div>
-                    </a>
-                </div>
-                {{-- @endforeach --}}
-            </div>
+    <section class="course_slider_section">
+        <div class="container">
+            <h1 class="mb-5">Grow Your Skills, Secure Your Future</h1>
+            <section class="course-slider slider">
+                <div class="slide"> <a href=""><img src="{{ asset('frontendAssets') }}/static_imges/course.jpg"></a> </div>
+                <div class="slide"> <a href=""><img src="{{ asset('frontendAssets') }}/static_imges/course2.jpg"></a> </div>
+                <div class="slide"> <a href=""><img src="{{ asset('frontendAssets') }}/static_imges/course3.jpg"></a> </div>
+                <div class="slide"> <a href=""><img src="{{ asset('frontendAssets') }}/static_imges/course.jpg"></a> </div>
+                <div class="slide"> <a href=""><img src="{{ asset('frontendAssets') }}/static_imges/course2.jpg"></a> </div>
+                <div class="slide"> <a href=""><img src="{{ asset('frontendAssets') }}/static_imges/course3.jpg"></a> </div>
+                <div class="slide"> <a href=""><img src="{{ asset('frontendAssets') }}/static_imges/course.jpg"></a> </div>
+            </section>
         </div>
     </section>
     <!-- Header Carousel End -->
-    <!-- authorized partner start -->
-    <section class="partner pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 client_slick_section">
-                    <fieldset>
-                        <legend>Authorized Partners
-                            <div class="left_circle"></div>
-                            <div class="right_circle"></div>
-                        </legend>
-                        <div class="partner_wrap">
-                            <div class="item">
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/rtv.png">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/apex.png">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/arora.png">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/atn_bangla.png">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/basic.jpg">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/premium.png">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/atn_mart.png">
-                            </div>
-                            <div class="item">
-                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/somoy.png">
-                            </div>
-                        </div>
-                    </fieldset>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- authorized partner end -->
     <!-- courses carousal start -->
     <section class="course_panel pt-5 pb-5">
         <div class="container">
@@ -875,6 +805,50 @@
         </div>
     </section>
     <!-- Seminar end-->
+
+    <!-- authorized partner start -->
+    <section class="partner pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 client_slick_section">
+                    <fieldset>
+                        <legend>Authorized Partners
+                            <div class="left_circle"></div>
+                            <div class="right_circle"></div>
+                        </legend>
+                        <div class="partner_wrap">
+                            <div class="item">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/rtv.png">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/apex.png">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/arora.png">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/atn_bangla.png">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/basic.jpg">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/premium.png">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/atn_mart.png">
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/somoy.png">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- authorized partner end -->
+
     <!-- Testimonial start-->
     <section class="testimonial_section pt-5 pb-5">
         <div class="container">
@@ -885,76 +859,45 @@
                         insights about their time with us.</p>
                 </div>
             </div>
-            {{-- <div class="row testimonial mt-5">
-                <div class="col-lg-12">
-                    <div class="testimonial_wrapper">
-                        <div class="card testimonial_card">
-                            <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e5.jpg"
-            alt="Testimonial Image" style="max-width: 300px;">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit pariatur ratione numquam placeat ipsa eaque recusandae, voluptate omnis culpa error voluptates cupiditate sit perspiciatis mollitia nulla corporis, ex quam. Nostrum.</p>
         </div>
-        </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="testimonial_wrapper">
-                <div class="card testimonial_card">
-                    <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e6.jpg" alt="Testimonial Image" style="max-width: 300px;">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit pariatur ratione numquam placeat ipsa eaque recusandae, voluptate omnis culpa error voluptates cupiditate sit perspiciatis mollitia nulla corporis, ex quam. Nostrum.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-12">
-            <div class="testimonial_wrapper">
-                <div class="card testimonial_card">
-                    <img class="img-fluid" src="{{ asset('frontendAssets') }}/static_imges/e7.jpg" alt="Testimonial Image" style="max-width: 300px;">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit pariatur ratione numquam placeat ipsa eaque recusandae, voluptate omnis culpa error voluptates cupiditate sit perspiciatis mollitia nulla corporis, ex quam. Nostrum.</p>
-                </div>
-            </div>
-        </div>
-        </div> --}}
-        <div class="row testimonial wow zoomIn" data-wow-delay="0.1s">
-            <div class="col-lg-12 mb-5">
-                <div class="feedback_wrapper">
-                    <div class="card feedback_card">
-                        <div class="info_box">
-                            <img src="{{ asset('frontendAssets') }}/static_imges/e5.jpg" alt="">
-                            <div class="description">
-                                <p><i class='fas fa-quote-left'></i>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quas dolor id enim maxime quod minus quis numquam itaque quae a facilis corrupti repudiandae deleniti eum veritatis, suscipit temporibus accusantium!</p>
-                                <h3>John</h3>
-                                <span class="fst-italic">Dev</span>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-offset-2 col-md-8">
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="https://mhjohn.onesky.com.bd/frontAssets/img/john.jpg" alt="" class="img-responsive">
                             </div>
+                            <h3 class="testimonial-info">
+                                krystal
+                                <small>Web Developer</small>
+                            </h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis. ksjfk jskadjf kasjdfk jsdklaf jsaldkfj laksdjf kasdjfklsdjfkl jsdka jeksjf ksdfj sdkjfk sjk jk js k kj ksdj dskf ksdjfksdj kjsdfk ksdjf ksdjf dsjaf sjdfk sjdaf ksdfj ksdjfkdsjfsdj</p>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="http://www.markharwood.plus.com/images/people%20large/people8.jpg" alt="" class="img-responsive">
+                            </div>
+                            <h3 class="testimonial-info">
+                                Diana
+                                <small>Web Designer</small>
+                            </h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="https://scontent.fdac39-1.fna.fbcdn.net/v/t39.30808-1/415939213_3761853077384047_8539709888661936535_n.jpg?stp=dst-jpg_s200x200&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE_2WPBTu4m59Q75u3Pn6x2lc0VKBtOKamVzRUoG04pqTn7HvCmt6j8WhWlvecjT5gr24I3aOWZQT4KLXFrBn3_&_nc_ohc=NArD-WtEKMwAb6TjPUh&_nc_ht=scontent.fdac39-1.fna&oh=00_AfBcAvpOvoec5C4K9SLX_9xrTEB1xI4g-8J0XMXIkChtKw&oe=662EBBB6" alt="" class="img-responsive">
+                            </div>
+                            <h3 class="testimonial-info">
+                                Diana
+                                <small>Web Designer</small>
+                            </h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12 mb-5">
-                <div class="feedback_wrapper">
-                    <div class="card feedback_card">
-                        <div class="info_box">
-                            <img src="{{ asset('frontendAssets') }}/static_imges/e6.jpg" alt="">
-                            <p><i class='fas fa-quote-left' style='font-size:36px; display: block; margin-top: 15px;'></i>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quas dolor id enim maxime quod minus quis numquam itaque quae a facilis corrupti repudiandae deleniti eum veritatis, suscipit temporibus accusantium!
-                                <i class='fas fa-quote-right' style='font-size:36px; display: block;'></i></p>
-                            <h3>John 2</h3>
-                            <span class="fst-italic">Dev 2</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-12 mb-5">
-                <div class="feedback_wrapper">
-                    <div class="card feedback_card">
-                        <div class="info_box">
-                            <img src="{{ asset('frontendAssets') }}/static_imges/e7.jpg" alt="">
-                            <p><i class='fas fa-quote-left' style='font-size:36px; display: block; margin-top: 15px;'></i><i class='fas fa-quote-right' style='font-size:36px; display: block;'></i></p>
-                            <h3>John 3</h3>
-                            <span class="fst-italic">Dev 3</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         </div>
     </section>
     <!-- Testimonial end-->
@@ -1043,7 +986,8 @@
     <script src="{{ asset('frontendAssets') }}/lib/easing/easing.min.js"></script>
     <script src="{{ asset('frontendAssets') }}/lib/waypoints/waypoints.min.js"></script>
     <script src="{{ asset('frontendAssets') }}/lib/counterup/counterup.min.js"></script>
-    <script src="{{ asset('frontendAssets') }}/lib/owlcarousel/owl.carousel.min.js"></script>
+    {{-- <script src="{{ asset('frontendAssets') }}/lib/owlcarousel/owl.carousel.min.js"></script> --}}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <script src="{{ asset('frontendAssets') }}/lib/isotope/isotope.pkgd.min.js"></script>
     <!-- custom js  -->
     <script src="{{ asset('frontendAssets') }}/js/main.js"></script>
