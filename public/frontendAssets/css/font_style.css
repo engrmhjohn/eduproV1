@@ -13,3 +13,23 @@
     font-family: kohinoorInter;
     src: url(../fonts/kohinoor/KohinoorInter-Regular.ttf);
  }
+ @font-face {
+    font-family: siliguriLight;
+    src: url(../fonts/hind_siliguri/HindSiliguri-Light.ttf);
+ }
+ @font-face {
+    font-family: siliguriRegular;
+    src: url(../fonts/hind_siliguri/HindSiliguri-Regular.ttf);
+ }
+ @font-face {
+    font-family: siliguriMedium;
+    src: url(../fonts/hind_siliguri/HindSiliguri-Medium.ttf);
+ }
+ @font-face {
+    font-family: siliguriSemiBold;
+    src: url(../fonts/hind_siliguri/HindSiliguri-SemiBold.ttf);
+ }
+ @font-face {
+    font-family: siliguriBold;
+    src: url(../fonts/hind_siliguri/HindSiliguri-Bold.ttf);
+ }

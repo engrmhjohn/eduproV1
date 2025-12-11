@@ -1,9 +1,7 @@
 // client slick
 $('.partner_wrap').slick({
     dots: false,
-    arrows: true,
-    nextArrow: '<span class="slick_right"><i class="fa-solid fa-chevron-right"></i></span>',
-    prevArrow: '<span class="slick_left"><i class="fa-solid fa-chevron-left"></i></span>',
+    arrows: false,
     infinite: true,
     slidesToShow: 6,
     slidesToScroll: 1,
@@ -147,7 +145,6 @@ $('.testimonial2').slick({
     ]
 });
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
 
 // Header carousel
 $(".header-carousel").owlCarousel({
@@ -194,7 +191,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('.course-slider').slick({
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1500,
@@ -204,9 +201,14 @@ $(document).ready(function () {
         dots: false,
         pauseOnHover: true,
         responsive: [{
-            breakpoint: 992,
+            breakpoint: 1200,
             settings: {
                 slidesToShow: 3
+            }
+        }, {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2
             }
         }, {
             breakpoint: 768,
@@ -214,7 +216,7 @@ $(document).ready(function () {
                 slidesToShow: 2
             }
         }, {
-            breakpoint: 400,
+            breakpoint: 600,
             settings: {
                 slidesToShow: 1
             }
