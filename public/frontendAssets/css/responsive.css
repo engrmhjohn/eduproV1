@@ -26,15 +26,6 @@
     .partner fieldset {
         width: 90%;
     }
-    .seminar_section .left_div {
-        padding: 0px 10px 10px 10px;
-    }
-    .header-carousel .owl-nav .owl-prev {
-        left: 0px;
-      }
-      .header-carousel .owl-nav .owl-next {
-        right: 0px;
-      }
 }
 
 @media(max-width: 768px) {
