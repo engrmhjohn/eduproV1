@@ -32,14 +32,14 @@
                             <a class="main_menu pl-0 empty_sub" href="{{ route('front.our.courses') }}">কোর্সসমূহ
                             </a><i class="fa-solid fa-chevron-down"></i>
                             <ul class="desktop_sub_menu1 ">
-                                <li><a href="">ISP Setup</a></li>
-                                <li><a href="">ISP Setup (Premium)</a></li>
-                                <li><a href="">ISP Setup with Juniper</a></li>
-                                <li><a href="">Cyber Security</a></li>
-                                <li><a href="">Python with Django Framework</a></li>
-                                <li><a href="">CCNA</a></li>
-                                <li><a href="">Microsoft Office Program</a></li>
-                                <li><a href="">App Development</a></li>
+                                <li><a href="{{ route('front.course.details') }}">ISP Setup</a></li>
+                                <li><a href="{{ route('front.course.details') }}">ISP Setup (Premium)</a></li>
+                                <li><a href="{{ route('front.course.details') }}">ISP Setup with Juniper</a></li>
+                                <li><a href="{{ route('front.course.details') }}">Cyber Security</a></li>
+                                <li><a href="{{ route('front.course.details') }}">Python with Django Framework</a></li>
+                                <li><a href="{{ route('front.course.details') }}">CCNA</a></li>
+                                <li><a href="{{ route('front.course.details') }}">Microsoft Office Program</a></li>
+                                <li><a href="{{ route('front.course.details') }}">App Development</a></li>
                             </ul>
                         </li>
                         <li class="show_sub_menu">
@@ -52,7 +52,7 @@
 
                             <ul class="desktop_sub_menu1 ">
                                 <li>
-                                    <a href="">সাফল্যের গল্প</a>
+                                    <a href="{{ route('front.success.story') }}">সাফল্যের গল্প</a>
                                 </li>
                                 <li>
                                     <a href="">ইন্ডাস্ট্রিয়াল অ্যাটাচমেন্ট</a>

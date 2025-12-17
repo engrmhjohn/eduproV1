@@ -6,7 +6,7 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-xl-3 col-lg-4 col-md-5 mt-3 mb-3">
                 <div class="slide p-0">
-                    <a href="">
+                    <a href="{{ route('front.course.details') }}">
                         <div class="course-card">
                             <div class="course-image">
                                 <img src="{{ asset('frontendAssets') }}/static_imges/demo-course.webp" alt="Course Image" loading="lazy">
@@ -34,7 +34,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-5 mt-3 mb-3">
                 <div class="slide p-0">
-                    <a href="">
+                    <a href="{{ route('front.course.details') }}">
                         <div class="course-card">
                             <div class="course-image">
                                 <img src="{{ asset('frontendAssets') }}/static_imges/demo-course.webp" alt="Course Image" loading="lazy">
@@ -62,7 +62,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-5 mt-3 mb-3">
                 <div class="slide p-0">
-                    <a href="">
+                    <a href="{{ route('front.course.details') }}">
                         <div class="course-card">
                             <div class="course-image">
                                 <img src="{{ asset('frontendAssets') }}/static_imges/demo-course.webp" alt="Course Image" loading="lazy">

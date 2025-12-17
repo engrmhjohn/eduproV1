@@ -16,7 +16,13 @@ class FrontViewController extends Controller
     public function ourCourses(){
         return view('frontend.course.course');
     }
+    public function courseDetails(){
+        return view('frontend.course.course-details');
+    }
     public function contactUs(){
         return view('frontend.contact-us.contact');
+    }
+    public function successStory(){
+        return view('frontend.success-story.success_story');
     }
 }
